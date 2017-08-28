@@ -67,6 +67,7 @@
 - **layer**：一款强大的web弹层组件 [http://layer.layui.com/](http://layer.layui.com/)
 - **mCustomScrollbar**：jQuery自定义滚动条样式插件 [http://manos.malihu.gr/jquery-custom-content-scroller/](http://manos.malihu.gr/jquery-custom-content-scroller/)
 - **Let's Kill IE6**：消灭IE [http://overtrue.me](http://overtrue.me)
+
 ####参考
 
  [mengkun(http://mkblog.cn)](http://mkblog.cn) 
