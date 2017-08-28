@@ -1,0 +1,120 @@
+<!doctype html><html> <head><meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"> <head><title>README</title> </head> <link rel="stylesheet" type="text/css" href="http://yun.mkblog.cn/static/js/lib/markdown/katex/katex.min.css"> <style type="text/css"> body{ font-family:"Helvetica Neue","Helvetica","Microsoft Yahei","微软雅黑","Lantinghei SC","STXihei","WenQuanYi Micro Hei",Arial,sans-serif; text-align:justify;margin:auto;font-size:14px;line-height:1.6em; color:#333;background:#fefefe;padding:15px;margin:30px auto;position: relative; -webkit-font-smoothing: antialiased;font-smoothing: antialiased; } article,footer,header,nav{width:700px;margin:0 auto} article{margin-top:4em;margin-bottom:4em;min-height:400px} footer{margin-bottom:50px} video{margin:2em 0;border:1px solid #ddd} nav{font-size:.9em;font-style:italic;border-bottom:1px solid #ddd;padding:1em 0} nav p{margin:0} details{margin: 15px 0;} summary{cursor:pointer;padding: 4px;} summary:focus{outline: none;box-shadow: 0 0 3px #2196F3;} .h1,h1{font-size:2.2em;} .h2,h2{font-size:1.9em;} .h3,h3{font-size:1.6em;} .h4,h4{font-size:1.3em;} .h5,h5{font-size:1.2em;} .h6,h6{font-size:1.1em;} .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{ font-family:inherit;font-weight:500;color: #333; line-height:1.5em;padding:0;margin:1em 0 0.5em 0; } .h1,h1{letter-spacing: 1px;} .h2,h2{border-bottom: 1px solid #ddd;padding-bottom: 0.15em;} p{-webkit-hypens:auto;-moz-hypens:auto;hyphens:auto;margin:10px 0;word-wrap: break-word;} blockquote{margin-left:1em;padding:10px 20px;margin:10px 0 20px 0;border-left:10px solid #ddd;background: #f6f6f6;} blockquote p{margin:0;} code{ padding: 2px 4px;color: #c7254e;background-color:#f9f2f4;border-radius: 4px; } pre{display:block;padding:0;overflow:auto;margin:0 0 10px;font-size:1em;line-height:1.42857143; word-break:break-all;word-wrap:break-word;color:#333;background:none;border-radius:4px} code,kbd,pre,samp{ font-family:Consolas,'Liberation Mono','Ubuntu Mono',Menlo,Courier,sans-serif; } pre code{background:#f8f8f8;color:#777;white-space:pre-wrap;padding:6px 1em;border:1px solid #eee;display: block;} a{color:#1980e6;text-decoration:none} a:hover{text-decoration:underline} a img{border:none} img{max-width: 100%;} h1 a,h1 a:hover{text-decoration:none} hr{border: 0 none;height: 4px;margin:1.2em 0; background: rgba(0, 0, 0, 0) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0; } @media screen and (min-width: 900px) { body {width: 900px;} } ul,ol{padding: 0.5em 0 0.5em 3em;} table {border-collapse: collapse;border-spacing: 0;margin-bottom: 20px;} table thead{background: #eee;} table td,table th{padding: .5em;border: 1px solid #ddd;line-height: 1.5;} .markdown-latex {text-align: center;margin-bottom: 1.5em;font-size:1.6em;color: #000;} .latex-inline .katex-display{display:inline-block;font-size: 0.8em;} .markdown_menu ul{padding:0 10px 20px 20px;} .markdown_menu li{ font-size:14px;list-style:none; line-height:1.8em;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; } .markdown_menu_h2{padding-left:2em;} .markdown_menu_h3{padding-left:4em;} .markdown_menu_h4{padding-left:6em;} .markdown_menu_h5{padding-left:8em;} .markdown_menu_h6{padding-left:10em;} div .hljs{color: #666;} .hljs-comment,.hljs-quote {color: #8e908c;} .hljs-variable,.hljs-template-variable,.hljs-tag,.hljs-name,.hljs-selector-id, .hljs-selector-class,.hljs-regexp,.hljs-deletion {color: #c82829;} .hljs-number,.hljs-built_in,.hljs-builtin-name,.hljs-literal,.hljs-type, .hljs-params,.hljs-meta,.hljs-link {color: #f5871f;} .hljs-attribute {color: #eab700;} .hljs-string,.hljs-symbol,.hljs-bullet,.hljs-addition {color: #718c00;} .hljs-title,.hljs-section {color: #4271ae;} .hljs-keyword,.hljs-selector-tag {color: #8959a8;} .hljs {display: block;overflow-x: auto;color: #4d4d4c;padding: 0.5em;} .hljs-emphasis {font-style: italic;} .hljs-strong {font-weight: bold;} /* black theme */ body.code_theme_black{background:#333;color:#bbb} body.code_theme_black blockquote{border-color:#444;border-color:rgba(200,200,200,.1);background:#444;background:rgba(200,200,200,.1)} body.code_theme_black code,body.code_theme_black pre,body.code_theme_black pre code{color:#777;border-color:#444;border-color:rgba(0,0,0,.1);background:#444;background:rgba(0,0,0,.1)} body.code_theme_black code{color:#C5AC18;background:#555;background:rgba(255,255,255,0.15);} body.code_theme_black a{color:orange} body.code_theme_black .h1,body.code_theme_black h1, body.code_theme_black .h2,body.code_theme_black h2, body.code_theme_black .h3,body.code_theme_black h3, body.code_theme_black .h4,body.code_theme_black h4, body.code_theme_black .h5,body.code_theme_black h5, body.code_theme_black .h6,body.code_theme_black h6{ color: #fff; } body.code_theme_black hr{border-bottom:solid 1px #444;border-color:rgba(200,200,200,.1);background-image:none;} body.code_theme_black table thead{background: #3e3e3e;} body.code_theme_black table td,body.code_theme_black table th{border-color:#444;border-color:rgba(200,200,200,.1)} body.code_theme_black .markdown-latex {color: #fff;} body.code_theme_black div .hljs{display:block;overflow-x:auto;padding:.5em;background:#23241f} body.code_theme_black .hljs,body.code_theme_black .hljs-subst,body.code_theme_black .hljs-tag{color:#f8f8f2} body.code_theme_black .hljs-emphasis,body.code_theme_black .hljs-strong{color:#a8a8a2} body.code_theme_black .hljs-bullet,body.code_theme_black .hljs-link,body.code_theme_black .hljs-literal,body.code_theme_black .hljs-number,body.code_theme_black .hljs-quote,body.code_theme_black .hljs-regexp{color:#ae81ff} body.code_theme_black .hljs-code,body.code_theme_black .hljs-section,body.code_theme_black .hljs-selector-class,body.code_theme_black .hljs-title{color:#a6e22e} body.code_theme_black .hljs-strong{font-weight:700} body.code_theme_black .hljs-emphasis{font-style:italic} body.code_theme_black .hljs-attr,body.code_theme_black .hljs-keyword,body.code_theme_black .hljs-name,body.code_theme_black .hljs-selector-tag{color:#f92672} body.code_theme_black .hljs-attribute,body.code_theme_black .hljs-symbol{color:#66d9ef} body.code_theme_black .hljs-class .hljs-title,body.code_theme_black .hljs-params{color:#f8f8f2} body.code_theme_black .hljs-addition,body.code_theme_black .hljs-built_in,body.code_theme_black .hljs-builtin-name,body.code_theme_black .hljs-selector-attr,body.code_theme_black .hljs-selector-id,body.code_theme_black .hljs-selector-pseudo,body.code_theme_black .hljs-string,body.code_theme_black .hljs-template-variable,body.code_theme_black .hljs-type,body.code_theme_black .hljs-variable{color:#e6db74} body.code_theme_black .hljs-comment,body.code_theme_black .hljs-deletion,body.code_theme_black .hljs-meta{color:#75715e} .print-btn{ position:absolute;padding:4px 20px;color:#444;font-size:1em; background:#eee;background:rgba(200,200,200,0.2);margin-top: -45px;right:15px; } .print-btn:hover{text-decoration: none;background: #14a2ff;color: #fff;} @media print { .print-btn{display: none;} } </style> <body > <a href="javascript:window.print();" class="print-btn">Print</a> <h1>MKOnlineMusicPlayer V2.0</h1>
+<p>MKOnlineMusicPlayer 是一款开源的基于网易云音乐api的在线音乐播放器。具有音乐搜索、播放、下载、歌词同步显示、个人音乐播放列表同步等功能。</p>
+<p>前端界面参照 QQ 音乐网页版进行布局，同时采用了流行的响应式设计，无论是在PC端还是在手机端，均能给您带来原生 app 般的使用体验。</p>
+<h3>相关链接</h3>
+<hr>
+<p><strong>在线演示</strong> <a href="http://lab.mkblog.cn/music/" target="_blank">http://lab.mkblog.cn/music/</a></p>
+<p><strong>详细介绍</strong> <a href="http://mkblog.cn/757/" target="_blank">http://mkblog.cn/757/</a></p>
+<p><strong>GitHub</strong> <a href="https://github.com/mengkunsoft/MKOnlineMusicPlayer" target="_blank">https://github.com/mengkunsoft/MKOnlineMusicPlayer</a></p>
+<h3>注意事项</h3>
+<hr>
+<h4>关于API文件</h4>
+<p>由于网易云音乐官方封锁了国外的访问，因此本播放器的 api.php 在海外的空间上可能无法运行(其实有个“你懂的”的功能，请自行挖掘)，建议在国内空间使用。</p>
+<h4>关于兼容性</h4>
+<p>本播放器设计支持 IE9及以上的现代浏览器。并且已在 Chrome、firefox、IE11 等浏览器测试使用正常。</p>
+<h4>关于版权</h4>
+<p>本播放器由 <a href="http://mkblog.cn" target="_blank">mengkun(http://mkblog.cn)</a> 开发，您可以随意修改、使用、转载。使用或转载时<code>请务必保留出处</code>，抱拳了各位老铁们！</p>
+<h4>关于歌曲</h4>
+<p>播放器中采用了 <a href="http://music.163.com/" target="_blank">网易云音乐(http://music.163.com/)</a> 的 api，因此相对应的歌曲版权归网易云音乐所有。支持正版音乐，请使用官方版网易云。</p>
+<h4>其它</h4>
+<p>作者很忙，非诚勿扰。欢迎提交 BUG 及好的建议，不欢迎一上来就问一些基础的东西及唠东唠西。</p>
+<h3>更新日志</h3>
+<hr>
+<h4>v2.0 Beta <code>2017/3/18</code></h4>
+<ul>
+<li>所有代码均推翻重写，前端界面全新改版</li>
+<li>完善对手机端的适配，新支持 IE9~IE11 浏览器</li>
+<li>修复 IE11 下点击下载歌曲名字乱码的BUG</li>
+<li>新增“正在播放”、“播放历史”列表功能</li>
+<li>新增后台自定义播放列表功能，支持多种列表定义模式</li>
+<li>新增本地记录用户设置及播放列表功能</li>
+<li>进度条支持响应点击事件</li>
+</ul>
+<h4>v1.3 <code>未发布</code></h4>
+<ul>
+<li>新增同步用户歌单功能</li>
+<li>修复一些已知BUG<br>
+(因逻辑过于混乱，代码过于庞杂，此版本废弃)</li>
+</ul>
+<h4>v1.1 <code>2016/10/27</code></h4>
+<ul>
+<li>修复宽屏下背景覆盖缺失的BUG</li>
+<li>修复打开页面后直接点击播放无效的BUG</li>
+<li>修复EDGE浏览器点击下载时文件名为乱码的BUG</li>
+<li>优化播放已下架的音乐，会给出无法播放的提示</li>
+<li>修复歌词获取失败时无法清除原有歌词的BUG</li>
+<li>暂停播放时停止歌词滚动，方便复制歌词</li>
+<li>优化搜索内容为空时弹出提示</li>
+</ul>
+<h4>v1.0 <code>2016/10/25</code></h4>
+<ul>
+<li>完成搜索并播放音乐功能</li>
+<li>完成一键提取音乐外链功能</li>
+<li>完成音乐下载功能</li>
+<li>完成显示歌曲封面、歌词功能</li>
+</ul>
+<h3>开发文档[待完善]</h3>
+<hr>
+<h4>播放列表DIY教程</h4>
+<p>本播放器支持后台自定义播放列表。打开 <code>js/musicList.js</code>，按照里面的说明对应修改即可。</p>
+<h4>播放器DIY教程</h4>
+<p>除了自定义播放列表，本播放器还支持一些 DIY 设定，比如修改 api.php 文件的默认路径、修改搜索框的默认搜索内容等。具体请打开 <code>js/player.js</code> 查看</p>
+<h4>rem 变量表</h4>
+<p>程序中的rem数组用于存储全局变量，具体的成员(部分)及作用见下表：</p>
+<table>
+<thead>
+<tr>
+<th>变量名</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rem.playlist</td>
+<td>当前正在播放的播放列表编号</td>
+</tr>
+<tr>
+<td>rem.playid</td>
+<td>正在播放的这首歌在播放列表中的编号</td>
+</tr>
+<tr>
+<td>rem.dislist</td>
+<td>当前显示的列表的列表编号</td>
+</tr>
+<tr>
+<td>rem.loadPage</td>
+<td>搜索功能已加载的页码</td>
+</tr>
+<tr>
+<td>rem.wd</td>
+<td>当前的搜索词</td>
+</tr>
+<tr>
+<td>rem.uid</td>
+<td>当前已同步的用户的网易云 ID</td>
+</tr>
+<tr>
+<td>rem.uname</td>
+<td>已登录用户的用户名</td>
+</tr>
+<tr>
+<td>rem.sheetList</td>
+<td>歌单容器操作对象</td>
+</tr>
+<tr>
+<td>rem.mainList</td>
+<td>歌曲列表容器操作对象</td>
+</tr>
+</tbody>
+</table>
+<h3>致谢</h3>
+<hr>
+<h4>特别感谢 <code>网易云音乐</code></h4>
+<h4>采用的开源模块</h4>
+<ul>
+<li><strong>Jquery</strong>：js主流开发框架 <a href="http://jquery.com/" target="_blank">http://jquery.com/</a></li>
+<li><strong>layer</strong>：一款强大的web弹层组件 <a href="http://layer.layui.com/" target="_blank">http://layer.layui.com/</a></li>
+<li><strong>mCustomScrollbar</strong>：jQuery自定义滚动条样式插件 <a href="http://manos.malihu.gr/jquery-custom-content-scroller/" target="_blank">http://manos.malihu.gr/jquery-custom-content-scroller/</a></li>
+<li><strong>Let's Kill IE6</strong>：消灭IE <a href="http://overtrue.me" target="_blank">http://overtrue.me</a></li>
+</ul>
+ </body> <html> 
